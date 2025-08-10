@@ -1,0 +1,31 @@
+# Compiler files
+cache/
+out/
+broadcast/
+
+# Dependencies
+lib/
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Build artifacts
+artifacts/
+dist/
+
+# Rust installer
+rustup.sh
+
+# Logs
+*.log
