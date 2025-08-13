@@ -199,7 +199,8 @@ cast call <CONTRACT_ADDRESS> "getContractStats()" --rpc-url http://127.0.0.1:854
 - [x] Day 2: Interactive Greeting Contract with Cast/Anvil
 - [x] Day 3: SimpleBank with Security Features and Comprehensive Tests
 - [x] Day 4: TokenSwap with 1:1 Ratio and Extensive Fuzz Testing
-- [ ] Day 5-15: More complex projects coming soon...
+- [x] Day 5: BatchTransfer with Gas Optimization and 84% Savings
+- [ ] Day 6-15: More complex projects coming soon...
 
 ---
 Built with ❤️ by Shreya during my Foundry learning journey
