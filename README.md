@@ -186,7 +186,7 @@ cast call <CONTRACT_ADDRESS> "getContractStats()" --rpc-url http://127.0.0.1:854
 | 3 | SimpleBank | Security & Testing | ✅ Complete | Reentrancy protection |
 | 4 | TokenSwap | Fuzz Testing | ✅ Complete | 260+ fuzz test runs |
 | 5 | BatchTransfer | Gas Optimization | ✅ Complete | 84% gas savings |
-| 6 | TBD | Advanced Topics | 🔄 Next | Coming Soon... |
+| 6 | Auction | Cheatcodes |✅ Complete |
 
 ---
 
@@ -200,7 +200,8 @@ cast call <CONTRACT_ADDRESS> "getContractStats()" --rpc-url http://127.0.0.1:854
 - [x] Day 3: SimpleBank with Security Features and Comprehensive Tests
 - [x] Day 4: TokenSwap with 1:1 Ratio and Extensive Fuzz Testing
 - [x] Day 5: BatchTransfer with Gas Optimization and 84% Savings
-- [ ] Day 6-15: More complex projects coming soon...
+- [x] Day 6: Auction Contract with cheatcodes testig 
+- [ ] Day 7-15: More complex projects coming soon...
 
 ---
 Built with ❤️ by Shreya during my Foundry learning journey
