@@ -49,6 +49,9 @@ Gas-optimized batch ETH transfer contract with comprehensive benchmarking:
 - Real-world scalability: 36K gas per recipient at optimal batch sizes
 - Production security features and emergency controls
 
+
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -187,6 +190,8 @@ cast call <CONTRACT_ADDRESS> "getContractStats()" --rpc-url http://127.0.0.1:854
 | 4 | TokenSwap | Fuzz Testing | ✅ Complete | 260+ fuzz test runs |
 | 5 | BatchTransfer | Gas Optimization | ✅ Complete | 84% gas savings |
 | 6 | Auction | Cheatcodes |✅ Complete |
+| 7 | ERC20Mintable | ERC20 token implementation | ✅ Complete |
+
 
 ---
 
@@ -201,7 +206,8 @@ cast call <CONTRACT_ADDRESS> "getContractStats()" --rpc-url http://127.0.0.1:854
 - [x] Day 4: TokenSwap with 1:1 Ratio and Extensive Fuzz Testing
 - [x] Day 5: BatchTransfer with Gas Optimization and 84% Savings
 - [x] Day 6: Auction Contract with cheatcodes testig 
-- [ ] Day 7-15: More complex projects coming soon...
+- [x] Day 7: Add ERC20 Mintable token with OpenZeppelin dependencies
+- [x] Day 8-15: More complex projects coming soon...
 
 ---
 Built with ❤️ by Shreya during my Foundry learning journey
