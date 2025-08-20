@@ -16,3 +16,6 @@
 [submodule "ERC20Mintable/lib/openzeppelin-contracts"]
 	path = ERC20Mintable/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "Voting/lib/forge-std"]
+	path = Voting/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
