@@ -25,3 +25,6 @@
 [submodule "NFT/lib/openzeppelin-contracts"]
 	path = NFT/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "AaveBorrow/lib/forge-std"]
+	path = AaveBorrow/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
