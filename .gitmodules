@@ -28,3 +28,6 @@
 [submodule "AaveBorrow/lib/forge-std"]
 	path = AaveBorrow/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Wallet/lib/forge-std"]
+	path = Wallet/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
