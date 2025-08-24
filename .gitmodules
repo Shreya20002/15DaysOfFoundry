@@ -31,3 +31,15 @@
 [submodule "Wallet/lib/forge-std"]
 	path = Wallet/lib/forge-std
 	url = https://github.com/foundry-rs/forge-std
+[submodule "Vault/lib/forge-std"]
+	path = Vault/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Vault/lib/openzeppelin-contracts"]
+	path = Vault/lib/openzeppelin-contracts
+	url = https://github.com/OenZeppelin/openzeppelin-contracts
+[submodule "Subscription/lib/forge-std"]
+	path = Subscription/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "Crowdfund/lib/forge-std"]
+	path = Crowdfund/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
