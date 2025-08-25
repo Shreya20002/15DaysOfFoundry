@@ -1,0 +1,40 @@
+# A friendly name for our workflow
+name: Foundry CI
+
+# This section defines WHEN the workflow will run
+on:
+  push:
+    branches:
+      - main # Run on pushes to the main branch
+  pull_request:
+    branches:
+      - main # Run on pull requests targeting the main branch
+
+# This section defines WHAT the workflow will do
+jobs:
+  check:
+    name: Foundry Tests & Lint
+    runs-on: ubuntu-latest # Use the latest version of Ubuntu Linux as the runner
+
+    steps:
+      # Step 1: Check out the code from the repository
+      # This downloads your project code into the runner environment.
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Install Foundry
+      # This uses an official GitHub Action from the Foundry team to install `forge`.
+      - name: Install Foundry
+        uses: foundry-rs/foundry-toolchain@v1
+        with:
+          version: nightly
+
+      # Step 3: Run the Linter (forge fmt)
+      # The `--check` flag makes the command fail if any file is not formatted correctly.
+      - name: Run Linter
+        run: forge fmt --check
+
+      # Step 4: Run the Tests
+      # This command will automatically fail the workflow if any test reverts unexpectedly.
+      - name: Run tests
+        run: forge test

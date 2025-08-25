@@ -52,3 +52,6 @@
 [submodule "Crowdfund/lib/openzeppelin-contracts"]
 	path = Crowdfund/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "CICD/lib/forge-std"]
+	path = CICD/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
