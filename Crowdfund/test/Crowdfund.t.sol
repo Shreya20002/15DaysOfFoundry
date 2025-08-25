@@ -13,6 +13,9 @@ contract CrowdfundTest is Test {
     uint256 constant DURATION = 7 days;
 
     function setUp() public {
+        vm.deal(CREATOR, 10 ether);
+        vm.deal(CONTRIBUTOR_A, 10 ether);
+        vm.deal(CONTRIBUTOR_B, 10 ether);
         vm.prank(CREATOR);
         crowdfund = new Crowdfund(GOAL, DURATION);
     }
